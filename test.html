@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test HTML</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+	<style type="text/css">
+		legend {
+			font-size:125%;
+			background:#a7e2f2;
+			padding:0 1em;
+			border:1px solid #ccc;
+		}
+		fieldset{
+			margin: 
+		}
+	</style>
+</head>
+<body>
+	<div class="row">
+		<h1>Character Sheet</h1>
+		<form class="col s12">
+			<div class="input-field col s3">
+				<input type="text" name="name">
+				<label for="name">Character Name</label>
+			</div>
+			<div class="input-field col s3">
+				<input type="text" name="race">
+				<label for="race">Race</label>
+			</div>
+			<div class="input-field col s3">
+				<input type="text" name="class">
+				<label for="class">Class</label>
+			</div>
+			<div class="input-field col s3">
+				<input type="number" min="1" max="10" name="level">
+				<label for="level">Level</label>
+			</div>
+			<legend>Stats</legend>
+			<div class="input-field col s2">
+				<input type="number" min="0" max="30" name="str">
+				<label for="str">Strenght</label>
+			</div>
+			<div class="input-field col s2">
+				<input type="number" min="0" max="30" name="dex">
+				<label for="dex">Dexterity</label>
+			</div>
+			<div class="input-field col s2">
+				<input type="number" min="0" max="30" name="con">
+				<label for="con">Constitution</label>
+			</div>
+			<div class="input-field col s2">
+				<input type="number" min="0" max="30" name="int">
+				<label for="int">Intelligenece</label>
+			</div>
+			<div class="input-field col s2">
+				<input type="number" min="0" max="30" name="wis">
+				<label for="wis">Wisdon</label>
+			</div>
+			<div class="input-field col s2">
+				<input type="number" min="0" max="30" name="cha">
+				<label for="cha">Charisma</label>
+			</div>
+			<legend>Defence</legend>
+			<div class="input-field col s4">
+				<input type="number" min="10" max="30" name="AC">
+				<label for="AC">Armor Class</label>
+			</div>
+			<div class="input-field col s4">
+				<input type="number" min="8" max="30" name="PD">
+				<label for="PD">Physical Defense</label>
+			</div>
+			<div class="input-field col s4">
+				<input type="number" min="8" max="30" name="MD">
+				<label for="MD">Mental Defense</label>
+			</div>
+			<legend>Hit Point/Recoverise</legend>
+			<div class="input-field col s2">
+				<input type="number"name="Current Hit Point">
+				<label for="Current Hit Point">Current HP</label>
+			</div>
+			<div class="input-field col s2">
+				<input type="number"name="Maximun Hit Point">
+				<label for="Maximun Hit Point">Maximun HP</label>
+			</div>
+			<div class="input-field col s3">
+				<input type="number"name="Current Recoverise">
+				<label for="Current Recoverises">Current Recoveries</label>
+			</div>
+			<div class="input-field col s2">
+				<input type="number"name="Maximun Recoverise">
+				<label for="Maximun Recoverise">Maximun Recoverise</label>
+			</div>
+			<div class="input-field col s2">
+				<input type="number"name="Recoverise Roll">
+				<label for="Recoverise Roll">Recoverise Roll</label>
+			</div>
+
+		</form>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="https:/cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+	</body>
+</html>
